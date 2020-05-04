@@ -1,0 +1,67 @@
+20200504
+
+GIT Interface 
+~ 로그인되어있는 지금있는 폴더, 최상단 
+$ : 사용자의 명령 받을 수 있는 상태
+
+GIT Commands / 명령어
+ls : 모든 파일 보여줌
+ls -l
+ls -a (숨긴 파일까지)
+
+cd : changes directory / cd ./move  
+touch : create file / file hello.py
+mv : moves file / (파일명) (폴더명) 이동
+cp : copy      /  cp hello.py                   
+cd ..  :  상위폴더로 이동
+
+///////////////삭제 관련////////////////////////////////
+컴퓨터에서 삭제의 2가지 의미
+remove : 논리적 삭제
+delete   : 물리적 삭제
+
+rm *.html html 확장자 가진 파일 다 삭제
+rm은 폴더 삭제 못함
+rm -r fc   / 모든 객체를 지우고 해당 경로까지 지워라
+
+//////////////////권리///////////////////////////////////
+ls -l
+-		off
+d		on
+
+rw
+rw
+r
+
+dr
+
+chmod 000 hello.py
+421 
+나  / 유저 / 게스트
+
+rename : mv server.js ./index.html
+mv index.html ./. index.html
+index.html 숨김
+////////////////////VI////////////////////////////////
+vi (파일명)
+i : 입력
+esc : normal mode
+shift + ; : to toggle wp, q!
+cat :
+
+git status
+git init
+rm -rf .git
+
+add, commit, push
+
+*git하는 기준*
+1. 동작하는 최소 단위
+2. 연관성
+
+git push origin master
+( -u ) 
+remote하면 -u 안해도 괜찮다.
+
+git pull origin develop
+/////////////////////////////////////////////////////

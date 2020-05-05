@@ -1,0 +1,39 @@
+3 List
+
+bicycle = [ , ]
+index  : bicycle[0]
+
+modify
+motorcycles[0] = ‘ducati’
+
+add()
+motorcycles.append(‘ducati’)
+
+insert()
+motorcycles.insert(0, ‘ducati’)
+
+delete
+del motorcycles[0]
+
+pop()
+
+remove()
+motorcycles.remove(‘ducati’)
+
+Organizing a list
+sort()
+cars = [‘bmw’, ‘audi’, ’toyota’, ’subaru’]
+cars.sort()
+cars.sort(reverse=True)
+
+sorted - doesnt change the original list
+cars = [‘bmw’, ‘audi’, ’toyota’, ’subaru’]
+print(“Here is the original list:”)
+print(sorted(Cars))
+
+cars.reverse()
+len(cars)
+
+Avoiding Index Errors When working with lists 
+motorcycles = [‘honda’, ‘yamaha’, ’suzuki’]
+print(motorcycles[3])

@@ -1,0 +1,15 @@
+Working With Lists
+
+Looping through an Entire List
+
+For - the same action with every item in a list
+ex)
+magicians = [‘alice’, ‘david’, ‘carolina’]
+for magician in magicians:
+	print(magician)
+
+Doing More Work Within a for loop
+
+for magician in magicians:
+	print(f”{magician.title()}, that was a great trick!”)
+

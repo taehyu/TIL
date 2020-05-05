@@ -1,0 +1,29 @@
+2 Variables & Simple Data Types
+
+Variable
+message = “Hello”
+variable	    value
+
+Strings
+“"
+''
+
+method
+name.title()
+title()
+
+fstrings
+full_name = f"{first_name} {last_name}
+
+.rstrip()
+lstrip()
+strip()
+
+Numbers
+x, y, z = 0, 0 , 0
+
+Constant
+ALL CAPITAL
+
+Comment
+#

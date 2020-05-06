@@ -119,4 +119,6 @@ players = [Here are the first three players on my team:"]
 for player in players[:3]:
   print(player.title())
 
-3. Copying a List 
+3. Copying a List [:]
+my_foods = ['pizza, 'falafel', 'carrot cake']
+friend_foods = my_foods[:]

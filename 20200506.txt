@@ -122,3 +122,5 @@ for player in players[:3]:
 3. Copying a List [:]
 my_foods = ['pizza, 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
+
+4. Tuples

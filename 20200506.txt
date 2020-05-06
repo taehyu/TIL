@@ -123,7 +123,10 @@ for player in players[:3]:
 my_foods = ['pizza, 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
 
-4. Tuples
+Tuples
 meaning immutable list
 
-Defining a Tuple
+1. Defining a Tuple
+uses paranthese
+when only one object in Tuple - my_t = (3,)
+need a comma after the first object

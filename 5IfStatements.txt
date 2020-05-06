@@ -117,17 +117,27 @@ only want only one block of code to run : an if-elif-else
 more than one block of code needs to run : use a series of independent if statements
 
 5.0 Using if Statements with Lists
-
-
-
-
-
 5.1 Checking for Special Items
+toppings = ['mushrooms', 'green peppers', 'extra cheese']
 
+for topping in toppings:
+	print(f"Adding {topping}.")
+
+print("\nFinished making your pizza!")
+
+=========================================================
+for toppinng in toppings:
+	if topping == 'green peppers':
+		print("Sorry, we are out of green peppers right now.")
+	else:
+		print(f"Adding {topping}.")
+print("\nFinished making your pizza!")
 
 
 
 5.2 Checking that a List is not Empty
+
+
 
 
 

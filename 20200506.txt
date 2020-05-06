@@ -130,3 +130,10 @@ meaning immutable list
 uses paranthese
 when only one object in Tuple - my_t = (3,)
 need a comma after the first object
+
+2. Writing over a Tuple
+can overwrite an existing tuple
+
+Style Your code
+
+1.

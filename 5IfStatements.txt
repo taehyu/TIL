@@ -1,0 +1,32 @@
+5 If Statements
+
+1.0 A Simple Example
+cars = [‘audi’, ‘bmw’, ‘subaru’, ‘toyota’]
+
+for car in cars:
+	if car == ‘bmw’:
+		print(car.upper())
+	else:
+		print(car.title())
+
+2.0 Conditional Tests
+conditional test : values True and False to decide whether the code in an if statement should be executed.
+
+2.1 Checking for Equality 
+= : sets the value
+==: double equal sign : checks whether the value is “” / returns true if the values on the left and right side of the operator match 
+
+2.2 Ignoring Case When Checking for Equality
+two values with different capitalization are not considered equal
+
+2.3 Checking for Inequality
+requested_topping = 'mushrooms'
+if requested_topping != 'anchovies':
+  print("Hold the anchovies!")
+
+2.4 Numerical Comparisons
+
+
+
+
+3.0 Checking Multiple Conditions

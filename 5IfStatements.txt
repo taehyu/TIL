@@ -23,10 +23,40 @@ two values with different capitalization are not considered equal
 requested_topping = 'mushrooms'
 if requested_topping != 'anchovies':
   print("Hold the anchovies!")
-
 2.4 Numerical Comparisons
 
-
-
-
 3.0 Checking Multiple Conditions
+
+3.1 Using and to Check Multiple Conditions
+
+3.2 Using or to Check Multiple Conditions
+
+3.3 Checking Whether a value is in a List
+
+3.4 Checking Whether a Value Is Not in a List
+
+3.5 Boolean Expressions
+
+4.0 If Statements
+
+4.1 Simple if Statements
+
+4.2 if-else Statements
+
+4.3 The if-elif-else Chain
+
+4.4 Using Multiple elif Blocks
+
+4.5 Omitting the else Block
+
+4.6 Testing Multiple Conditions
+
+5.0 Using if Statements with Lists
+
+5.1 Checking for Special Items
+
+5.2 Checking that a List is not Empty
+
+5.3 Using Multiple Lists
+
+5.4 Styling your if Statements

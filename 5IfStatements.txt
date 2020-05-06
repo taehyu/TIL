@@ -104,15 +104,37 @@ else block is a catchall statement, can be dangerous
 
 4.6 Testing Multiple Conditions
 
+toppings = ['mushrooms', 'extra cheese']
 
+if 'mushrooms' in toppings:
+	print("Adding mushrooms.")
+elif 'pepperoni' in toppings:
+	print("Adding pepperoni.")
 
+print("\nFinished making your pizza!")
+
+only want only one block of code to run : an if-elif-else
+more than one block of code needs to run : use a series of independent if statements
 
 5.0 Using if Statements with Lists
 
+
+
+
+
 5.1 Checking for Special Items
+
+
+
 
 5.2 Checking that a List is not Empty
 
+
+
+
 5.3 Using Multiple Lists
+
+
+
 
 5.4 Styling your if Statements

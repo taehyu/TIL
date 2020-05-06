@@ -124,3 +124,6 @@ my_foods = ['pizza, 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
 
 4. Tuples
+meaning immutable list
+
+Defining a Tuple

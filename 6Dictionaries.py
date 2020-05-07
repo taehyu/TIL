@@ -13,9 +13,23 @@ each key is connected to a value
 can use a key to access the value associated with that key
 a key's value can be a number, a string, a list, or even another dictionary
 
+alien_0 = {'color': 'green'}
+color - key
+green - associated value  
+
 2.1 Accessing Values in a Dictionary
+alien_0 = {'color': 'green', 'points': 5}
+new_points = alien_0['points']
+print(f"You just earned {new_points} points!")
 
 2.2 Adding New Key-Value Pairs
+Dictionaries are dynamic structures - can add new key-value 
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
 
 2.3 Starting with an Empty Dictionary
 

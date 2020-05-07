@@ -146,9 +146,10 @@ for language in set(favorite_language.values()):
 
 4.0 Nesting
 
-
+nesting: storing multiple dictionaries in a list / a list of items as a value in a dictionary
 
 4.1 A List of Dictionaries
+
 
 
 
@@ -156,6 +157,11 @@ for language in set(favorite_language.values()):
 
 
 
+
 4.3 A Dictionary in a Dictionary
+
+
+
+
 
 

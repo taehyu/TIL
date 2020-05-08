@@ -149,19 +149,37 @@ for language in set(favorite_language.values()):
 nesting: storing multiple dictionaries in a list / a list of items as a value in a dictionary
 
 4.1 A List of Dictionaries
-
 alien_0 = {'color': 'green', 'points': 5}
 alien_1 = {'color': 'yellow', 'points': 10}
 alien_2 = {'color': 'red', 'points': 15}
 
 aliens = [alien_0, alien_1, alien_2]
 
-for alien in aliens:
+for alien_number 
+
+aliens = []
+
+for alien_number in range(30):
+    new_alien
+
+
+for alien_number in range(30):
+  new_alien = {'color': 'green', 'points': 5, 'speed'}
+  aliens.append(new_alien)
+
+for alien in aliens[:5]:
   print(alien)
+print("...")
+
+print(f"Total number of aliens: {len(aliens)}")
+
 
 
 
 4.2 A List in a Dictionary
+
+
+
 
 
 

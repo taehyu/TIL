@@ -1,6 +1,8 @@
 1.0 How the input() function Works
+input() function : takes one argument : the prompt aka instructions (the message we display so they know what to do)
 
 1.1 Writing Clear Prompts
+add a space at the end of your prompts
 
 1.2 Using int() to Accept Numerical InputOnly
 

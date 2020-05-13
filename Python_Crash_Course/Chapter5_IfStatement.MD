@@ -250,15 +250,41 @@ Finished making your pizza!
  
 4.2 Checking That a List is Not Empty
 ------------------------------------------------------    
-
+	
+    requested_toppings = []
+    
+    if requested_toppings:
+    	for requested_topping in requested_toppings:
+        	print(f"Adding {requested_topping}.")
+        print("\nFinished making your pizza!")
+    else:
+    	print("Are you sure you want a plain pizza?")
 
 4.3 Using Multiple Lists
 ------------------------------------------------------
-
+	available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+    
+    requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+    
+    for requested_topping in requested_toppings:
+    	if requested_topping in avilable_toppings:
+        	print(f"Adding {requested_topping}.")
+        else:
+        	print(f"Sorry, we don't have {requested_topping}.")
+            
+    print("\nFinished making your pizza!")
 
 
 5.0 Style Your if Statements
 =====================================================
+
+
+
+
+
+
+
+
 
 
 

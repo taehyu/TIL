@@ -105,11 +105,29 @@ Marie, you can post a response if you wish
 
 3.0 if Statements
 =====================================================
+3.1 Simple if Statements
+-----------------------------------------------------
+	if conditional_test:
+    	do something
 
-	3.1 Simple if Statements
-    
-    3.2 if-else Statements
-    
+	age = 19
+    if age >= 18:
+    	print("YOu are old enough to vote!")
+        
+3.2 if-else Statements
+-----------------------------------------------------
+if else : the else statement allows you to define an action or set of actions that are executed when the conditional test fails.
+
+	age = 17
+	if age >= 18:
+    	print("You are old enough to vote!")
+        print("Have you registered to vote yet?")
+    else:
+    	print("Sorry, you are too young to vote.")
+        print("Please register to vote as soon turn 18!")
+
+3.3 The if-elif-else Chain
+------------------------------------------------------
     3.3 The if-elife-else Chain
     
     3.4 Using Multiple elif Blocks

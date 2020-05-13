@@ -128,22 +128,150 @@ if else : the else statement allows you to define an action or set of actions th
 
 3.3 The if-elif-else Chain
 ------------------------------------------------------
-    3.3 The if-elife-else Chain
+	age = 12
     
-    3.4 Using Multiple elif Blocks
+    if age < 4:
+    	print("Your admission cost is $0. ")
+    elif age < 18:
+    	print("Your admission cost is $25.")
+    else:
+    	print("Your admission cost is $40.")
+        
+Your admission cost is $25.
+
+	age = 12
     
-    3.5 Omitting the else Block
+    if age < 4:
+    	price = 0
+    elif age < 18:
+    	price = 25
+    else:
+    	price = 40
     
-    3.6 Testing Multiple Conditions
+    print(f"Your admission cost is ${price}.")
     
+3.4 Using Multiple elif Block
+-------------------------------------------------------
+	age = 12
+    
+    if age < 4:
+    	price = 0
+    elif age < 18:
+    	price = 25
+    elif age < 65:
+    	price = 40
+    else:
+    	price = 20
+    
+    print(f"Your admission cost is ${price}.")
+        
+3.5 Omitting the else Block
+------------------------------------------------------
+	age = 12
+    
+    if age < 4:
+    	price = 0
+    elif age < 18:
+    	price = 25
+    elif age < 65:
+    	price = 40
+    elif age >= 65:
+    	price = 20
+    
+    print(f"Your admission cost is ${price}.")
+
+the else block : catchall statement, mathces any condition that wasn't matched by a specific if or elif test and can sometimes include invalid or even malicious data
+
+3.6 Testing Multiple Conditions
+------------------------------------------------------
+use if-elif-else : if you want only oen block of code to run
+use a series of independent if statements: if more than one block of code needs to run
+
+- if-elif-else chain is appropriate to use when you jsut need one test to pass 
+
+
+	requested_toppings = ['mushrooms', 'extra cheese']
+
+	if 'mushrroms' in requested_toppings:
+		print("adding mushrooms.")
+	if 'pepperoni' in requested_toppings:
+		print("Adding pepperoni.")
+	if 'extra cheese' in requested_toppings:
+		print('Adding extra cheese.")
+
+	print("\nFinished making your pizza!")
+
+Adding mushrooms.
+Adding extra cheese.
+
+Finished making your pizza!
+
+	requested_toppings = ['mushrooms', 'extra cheese']
+    
+    if 'mushrooms' in requested_toppings:
+    	print("Adding mushrooms.")
+    elif 'pepperoni' in requested_toppings:
+    	print("adding pepperoni.")
+    elif 'extra cheese' in requested_toppings:
+    	print("Adding extra cheese.")
+        
+    print("\nFinished making your pizza!")
+    
+    
+Adding mushrooms.
+
+Finished making your pizza!
 4.0 Using if Statements with Lists
 =====================================================
+4.1 Checking for Special Items
+------------------------------------------------------    
 
-	4.1 Checking for Special Items
+	requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
     
-    4.2 Checking That a List is Not Empty
+    for requested_topping in requested toppings:
+    	print(f"Adding {requested_topping}.")
+        
+    print("\nFinished making your pizza!")
     
-    4.3 Using Multiple Lists
-    
+Adding mushrooms.
+Adding green peppers.
+Adding extra cheese.
+
+Finished making your pizza!
+
+	for requested_topping in requested_toppings:
+    	if requested_topping == 'green peppers':
+        	print("Sorry, we are out of green peppers right now.")
+        else:
+        	print(f"Adding {requested_topping}.")
+            
+        print("\nFinished making your pizza!")
+ 
+ 
+4.2 Checking That a List is Not Empty
+------------------------------------------------------    
+
+
+4.3 Using Multiple Lists
+------------------------------------------------------
+
+
+
 5.0 Style Your if Statements
 =====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

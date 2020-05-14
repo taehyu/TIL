@@ -20,9 +20,23 @@
 
 
 2.1 Accessing Values In a Dictionary
----------------------------------------------------------    
+--------------------------------------------------------- 	
+	alien_0 = {'color': 'green'}
+	print(alien_0['color'])
+    
+	alien_0 = {'color': 'green', 'points': 5}
+    new_points = alien_0['points']
+    print(f"You just earned {new_points} points!")
+    
 2.2 Adding New Key-Value Paris
 ---------------------------------------------------------    
+	alien_0 = {'color': 'green', 'points': 5}
+    print(alien_0)
+    
+    alien_0['x_position'] = 0
+    alien_0['y_position'] = 25
+    print(alien_0)
+    
 2.3 Starting with an Empty Dictionary
 ---------------------------------------------------------     
 2.4 Modifying Values in a Dictionary
